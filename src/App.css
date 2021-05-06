@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+button {
+  background: #a3be8c;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.copychunk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emojis {
+  display: inline-block;
+  padding: 15px;
+  background: #d8dee9;
+  border-radius: 10px;
+}
