@@ -27,7 +27,7 @@ function App() {
         placeholder="Text to translate"
         value={text}
         onChange={(event) => {
-          setText(event.target.value);
+          setText(event.target.value.toLowerCase());
           setError(null);
         }}
       />
