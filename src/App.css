@@ -1,5 +1,17 @@
 .App {
+  width: 100%;
   text-align: center;
+  margin: auto;
+}
+
+img {
+  padding: 10px 10px 0;
+  max-width: min(500px, calc(100% - 20px));
+}
+
+.tagline {
+  margin: 0;
+  padding: 0 20px 20px;
 }
 
 button {
@@ -12,8 +24,14 @@ button {
   cursor: pointer;
 }
 
+button:hover,
+button:focus {
+  background: #89ac6b;
+}
+
 input {
   padding: 5px;
+  background: #e5e9f0;
   border-radius: 5px;
   border: none;
 }
